@@ -11,9 +11,7 @@ public class Main {
             savings = savings + savings / 100;
             savings = savings + investment;
             month++;
-            if (savings < 2459000) {
-                System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей.");
-            }
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей.");
         }
 
         // Task #2
