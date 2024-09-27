@@ -22,7 +22,7 @@ public class Main {
             number++;
         }
         System.out.println();
-        for (number = 10; number >= 1; number--) {
+        for (number = 10; number > 0; number--) {
             System.out.print(number + " ");
         }
         System.out.println();
