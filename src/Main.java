@@ -3,12 +3,10 @@ public class Main {
 
         // Task #1
         System.out.println("Задача №1");
-        // можно оставить решение с процентами? а то копить очень долго)))))
         int investment = 15000;
         int savings = 0;
         int month = 0;
         while (savings < 2_459_000) {
-            savings = savings + savings / 100;
             savings = savings + investment;
             month++;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей.");
